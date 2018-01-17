@@ -17,7 +17,7 @@ def kasir():
 	banyak = 0
 	while (jawab =="y"):
 		awal()
-		kode = input("Masukkan Pilihan : ")
+		kode = input("Masukkan kode produk : ")
 		if kode=="1":
 			os.system('cls')
 			print ("Sablon Baju Rp.20,000")
@@ -45,6 +45,7 @@ def kasir():
 	total = int(bayar)-int(harga)
 	os.system('cls')
 	print ("Total kembalian adalah : "+"Rp."+str(total))
+	finish=input()
 
 print ("-"*23)
 print ("Program Kasir Usaha Percetakan")
